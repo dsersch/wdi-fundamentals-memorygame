@@ -36,7 +36,13 @@ a {
   text-decoration: none;
   text-transform: uppercase;
   margin: 0 20px 0 20px;
+  border-bottom: 2px solid transparent;
 }
+
+a:hover {
+  border-bottom: 2px solid white;
+}
+
 h2 {
   font-family: "Raleway", sans-serif;
   color: #0d2c40;
@@ -53,4 +59,39 @@ p {
 
 img {
   margin: 40px 8px 0 8px;
+}
+
+footer {
+  text-transform: uppercase;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #0D2C40;
+  color: white;
+  font-size: 14px;
+  letter-spacing: .08em;
+  font-weight: 500;
+}
+
+.copywrite {
+  font-family: "Raleway", sans-serif;
+  float: left;
+}
+
+.message {
+  font-family: "Raleway", sans-serif;
+  float: right;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+.name {
+  color: #F15B31;
+  font-weight: 700;
 }
